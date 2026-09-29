@@ -1,0 +1,18 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; }
+body { margin: 0; background: #0b0d10; color: #e6e9ee; }
+a { color: #7db6ff; text-decoration: none; }
+.topbar { display:flex; gap:1rem; padding:1rem 1.5rem; border-bottom:1px solid #1d2229; align-items:center; }
+.topbar button { margin-left:auto; }
+main { padding:1.5rem; }
+.card { background:#12161c; border:1px solid #1d2229; border-radius:8px; padding:1rem; margin-bottom:1rem; }
+.card.row { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
+input, select, button { padding:.5rem .75rem; border-radius:6px; border:1px solid #2a313b; background:#0e1218; color:inherit; }
+button { cursor:pointer; }
+button:hover { background:#1a2029; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:1rem; }
+table { width:100%; border-collapse:collapse; }
+th, td { text-align:left; padding:.5rem; border-bottom:1px solid #1d2229; }
+.muted { color:#8b95a5; }
+.err { color:#ff6b6b; }
+.center { text-align:center; margin-top:5rem; }
+.termwrap { height: calc(100vh - 8rem); background:#0b0d10; padding:.5rem; border-radius:8px; }
